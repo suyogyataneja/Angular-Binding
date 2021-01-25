@@ -1,0 +1,13 @@
+<h1> {{unitName}}</h1>
+<h2>The value of counter is {{i}}</h2>
+<button (click)="increment()"> CLICK ME </button>
+
+<p>
+  <input type="number" [(ngModel)]= 'i'/>
+</p>
+
+<p>
+  <input type="number" [(ngModel)]= 'j'/>
+</p>
+
+<h2>The value of addition is {{addition()}}</h2>
